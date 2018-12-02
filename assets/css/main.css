@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round:400,700");
 
 /*
 	Eventually by HTML5 UP
@@ -316,7 +316,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", sans-serif;
+		font-family: "Varela Round", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		letter-spacing: -0.01em;
@@ -1022,6 +1022,8 @@ input, select, textarea {
 			}
 
 		}
+
+.logo { width: 150px; height: auto; }
 
 /* Header */
 
