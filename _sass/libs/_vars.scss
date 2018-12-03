@@ -27,7 +27,7 @@
 	$font: (
 		family:					('Source Sans Pro', Helvetica, sans-serif),
 		family-fixed:			('Courier New', monospace),
-		family-heading:			('Raleway', Helvetica, sans-serif),
+		family-heading:			('Varela Round', Helvetica, sans-serif),
 		weight:					300,
 		weight-bold:			600,
 		weight-extrabold:		700,
@@ -44,10 +44,12 @@
 		fg:						#000000,
 		fg-bold:				#000000,
 		fg-light:				rgba(0,0,0,0.25),
+		sidebar-header: #fff,
 		border:					rgba(144,144,144,0.25),
-		border-bg:				rgba(144,144,144,0.1),
-		accent:					#49fcd4,
-		accent-border:			desaturate(darken(#49fcd4, 8), 30),
-		accent-alt:				desaturate(darken(#49fcd4, 10), 20),
-		accent-bg:				transparentize(#49fcd4, 0.75)
+		border-bg:			rgba(144,144,144,0.1),
+		accent:					rgba(55, 146, 37, 1),
+		accent-border:	desaturate(darken(rgba(55, 146, 37, 1), 1%), 5%),
+		accent-alt:			desaturate(darken(rgba(55, 146, 37, 1), 10%), 10%),
+		accent-bg:			transparentize(rgba(55, 146, 37, 1%), 0.75),
+		accent-fg:      #fff
 	);

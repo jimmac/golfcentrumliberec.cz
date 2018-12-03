@@ -6,7 +6,9 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import 'font-awesome.min.css';
+@import 'fontawesome.min.css';
+//@import 'fa.min.css';
+@import url("https://fonts.googleapis.com/css?family=Varela+Round:400,700");
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800');
 
 /*
@@ -52,3 +54,18 @@
 // Layout.
 
 	@import 'layout/wrapper';
+	
+// Random 
+
+header {
+  h1 {
+    background-image: svg-url('{% include gcl-bw.svg %}');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 2.5em;
+    background-pocition: left center;
+    text-align: left;
+    color: white;
+    font-size: 240%;
+  }
+}
