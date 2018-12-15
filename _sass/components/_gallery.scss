@@ -24,6 +24,11 @@
 		margin: ($gutter * -1) 0 0 ($gutter * -1);
 		width: calc(100% + #{$gutter});
 
+    iframe.landscape {
+      margin: 1.25rem 0 0 1.25rem;
+      width: 100%;
+    }
+    
 		a {
 			border-bottom: 0;
 			display: block;
