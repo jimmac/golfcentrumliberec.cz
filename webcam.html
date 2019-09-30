@@ -7,7 +7,7 @@ layout: golfcentrum
 <div class="content">
 
   <div class="viewport-centered" id="webcam">
-    <img class="image main" src="http://cam.gcgcl.cz:8090/jpg/image.jpg">
+    <img class="image main" src="/images/empty.svg">
   </div>
 </div>
 </section>
@@ -20,7 +20,6 @@ $(document).ready(function () {
      var r = (-0.5)+(Math.random()*(1000.99));
      var $newimg = $('<img class="image main" src="'+ img + '?' + r + '">');
      $("#webcam img").replaceWith($newimg);
-     console.log($newimg);
    }
 });
 </script>
