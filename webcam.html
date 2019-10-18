@@ -17,6 +17,7 @@ $(document).ready(function () {
    setInterval(reload,  5000);
    function reload() {
      var img = "http://cam.gcgcl.cz:8090/jpg/image.jpg";
+     //var img = "http://90.178.144.212:8090/jpg/image.jpg";
      var r = (-0.5)+(Math.random()*(1000.99));
      var $newimg = $('<img class="image main" src="'+ img + '?' + r + '">');
      $("#webcam img").replaceWith($newimg);
