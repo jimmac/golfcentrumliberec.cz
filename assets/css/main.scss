@@ -87,6 +87,14 @@ header {
   a { width: 100%; }
 }
 
+.important {
+   background-color: #c01c28 !important;
+   color: white;
+
+   &:hover { background-color: #e01b24 !important; }
+   &:active { background-color: #a51d2d !important; }
+}
+
 #wrapper section > .content.nomargin {
   margin: 0; padding: 0;
 }
